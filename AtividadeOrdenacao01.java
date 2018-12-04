@@ -83,10 +83,9 @@ public class AtividadeOrdenacao01 {
     { 
         int n = arr.size(); 
   
-        // Um por um limite de movimento de subarray não classificado
         for (int i = 0; i < n-1; i++) 
         { 
-            // Encontre o elemento mínimo na matriz não classificada 
+            // Encontre o elemento mínimo não classificado 
             int min_idx = i; 
             for (int j = i+1; j < n; j++) 
                 if (arr.get(j) < arr.get(min_idx)) 
